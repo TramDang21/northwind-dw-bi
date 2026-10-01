@@ -1,7 +1,7 @@
 # northwind-dw-bi
 Data Warehouse (Star Schema), SSIS ETL and BI Dashboard on Northwind
 ## Kiến trúc (Work Flow)
-![workflow](docs/ssis_controlflow.png)
+![workflow](docs/workflow.png)
 
 Extract (file .bak Northwind) → Transform (SSIS) → Load (SQL Server)
 → Star Schema → Scheduling → Visualization (Power BI)
